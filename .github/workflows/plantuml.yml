@@ -19,8 +19,8 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v2
         with:
-          distribution: 'ubuntu'
-          java-version: '17'
+          distribution: 'ubuntu-20.04'
+          java-version: '11'
 
       - name: Install PlantUML
         run: sudo apt-get install plantuml
